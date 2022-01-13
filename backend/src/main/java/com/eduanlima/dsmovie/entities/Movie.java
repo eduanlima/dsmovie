@@ -1,6 +1,7 @@
 package com.eduanlima.dsmovie.entities;
 
 import java.util.Objects;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -17,8 +18,9 @@ public class Movie {
 	private Double score;
 	private Integer count;
 	private String image;
-	
-	public Movie() {}
+
+	public Movie() {
+	}
 
 	public Movie(Long id, String title, Double score, Integer count, String image) {
 		this.id = id;
